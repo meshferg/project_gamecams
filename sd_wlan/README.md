@@ -1,13 +1,9 @@
 # Cuddeback Cuddelink camera network: Toshiba FlashAir WiFi SD card details
 This repository provides some details on hardware and software to enable a Toshiba FlashAir WiFi SD card to transmit images collected by a gamecamera network. This documentation and code is specific to Toshiba FlashAir cards running in a system as described [here](../README.md).
-
 ## Hardware
 (Coming soon.)
-
 ## Software
 The [sd_wlan/software]() directory contains the files that go on the top level of the SD card.
-
-## 
 In the root directory of the card:
  - Upload.lua: this script is triggered whenever an image file is dropped onto the SD card by the Cuddeback Home unit. Specifying that this script file is the one run is the last line in the 'CONFIG' file, by the 'LUA_SD_EVENT' parameter.
  - Settings.lua: this file needs to be edited to specify FTP server parameters. I.e. where do the files go.

@@ -11,7 +11,7 @@ Cudeback J cameras
 	|
 Cuddeback Home 1385 unit
 	|
-Toshiba FlashAir W-04 wifi SDCard [sd_wlan](./sd_wlan/README.md)                             \
+Toshiba FlashAir W-04 wifi SDCard                                                            \
 	|                                                                                           \
 FTP server (CentOS8)	                                                                         | (inside my network)
 	|                                                                                           /
@@ -25,11 +25,12 @@ SMS message sent via twilio
  - [Cuddeback Cuddelink J cameras](https://www.cuddeback.com/products/model-j-1415)
  - [Cuddeback Cuddelink Home 1385 receiver](https://www.cuddeback.com/products/cuddelink-home)
  - [Toshiba FlashAir SD card](https://smile.amazon.com/s?k=toshiba+flashair)
-
-## Software/network services
+## Commercial software/network services
  - [Amazon AWS S3 Boto3 python library](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html)
  - [twilio python library](https://pypi.org/project/twilio/)
-
+## My software and hardware
+ - Toshiba FlashAir card [sd_wlan](./sd_wlan/README.md)
+ - python daemon (coming soon)
 ## !Warnings! Seriously, read this if you are considering trying this.
  - Toshiba FlashAir cards are discontinued. The Toshiba developer site is gone, but some users are trying resurrect it [privately](https://www.reddit.com/r/flashair_developers/comments/cmbopo/flashairdeveloperscom_is_closing/). You may not be able to find any cards for other than ridiculously high prices. Searching finds other WiFi SD cards (e.g. Voorca, ez Share), but I know nothing about them.
  - My python daemon solution is highly over-engineered. I was doing a lot of playing and learning about some more enterprise-level concepts. I did not use a framework solution (e.g. django, flask, etc.), which would be an obviously useful tool for such a project.
@@ -39,6 +40,4 @@ SMS message sent via twilio
  - Running an old-school FTP server (it's not sftp, FlashAir can't do that) is risky in so many ways. Know what you are doing!!
 
 ### Build notes
- 
-## Software
-
+(Coming soon)
